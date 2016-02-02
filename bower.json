@@ -1,0 +1,11 @@
+{
+  "name": "persistencejs-trainig",
+  "version": "0.0.0",
+  "authors": [
+    "Vitaliy Melnik <vim@qapint.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "persistence": "~0.3.0"
+  }
+}
