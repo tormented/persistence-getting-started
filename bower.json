@@ -6,6 +6,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "persistence": "~0.3.0"
+    "persistence": "~0.3.0",
+    "bootstrap": "~3.3.6"
   }
 }
