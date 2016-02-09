@@ -31,13 +31,11 @@
 				</div>
 				<div class="form-group">
 					<label for="bookPublishYear">book publish year</label>
-					<input type="text" id="bookPublishYear" class="form-control" required/>
+					<input type="date" id="bookPublishYear" class="form-control" required/>
 				</div>
-				<div class="form-group">
-					<label for="bookGenre">book genre</label>
-					<input type="text" id="bookGenre" class="form-control" required disabled/>
+				<div class="form-group" id="bookAuthors">
+
 				</div>
-				<div class="form-group genres"></div>
 				<button class="btn btn-default">Add</button>
 			</form>
 		</div>
@@ -51,7 +49,7 @@
 						<th>description</th>
 						<th>pages count</th>
 						<th>publish year</th>
-						<th>genre</th>
+						<th>author</th>
 						<th colspan="2"></th>
 					</tr>
 					</thead>
@@ -67,8 +65,8 @@
 	<script src="../bower_components/persistence/lib/persistence.store.websql.js"></script>
 	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<!--<script src="../js/db.js"></script>-->
-	<!--<script src="../js/books.js"></script>-->
+	<script src="../js/db.js"></script>
+	<script src="../js/books.js"></script>
 </div>
 </body>
 </html>
